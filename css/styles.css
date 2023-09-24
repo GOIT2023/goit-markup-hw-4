@@ -357,6 +357,11 @@ img {
   gap: 24px;
 }
 
+.section_three_svg_icons {
+  width: 40px;
+  height: 40px;
+}
+
 .section_three_link {
   width: 100%;
   height: 100%;
@@ -372,8 +377,6 @@ img {
 }
 
 .section_three_svg {
-  width: 40px;
-  height: 40px;
   fill: #f4f4fd;
 }
 
@@ -554,4 +557,9 @@ img {
 .link_footer {
   margin-bottom: 16px;
   display: inline-block;
+}
+
+.footer_svg_baza {
+  width: 40px;
+  height: 40px;
 }
