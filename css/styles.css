@@ -372,7 +372,7 @@ img {
   justify-content: center;
 }
 
-.section_three_link:hover {
+.section_three_link:focus {
   background-color: #404bbf;
 }
 
