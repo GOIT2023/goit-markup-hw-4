@@ -183,9 +183,9 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   flex-shrink: 0;
-  background: var(--navyblue);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/img_section_one/people-office\ 1.png);
+  background: var(--navyblue);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -440,8 +440,8 @@ img {
   background-color: #4d5ae5;
   height: 100%;
   width: 100%;
-  transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(0%);
 }
 
 .container_section_four_list {
@@ -486,13 +486,13 @@ img {
   align-items: baseline;
 }
 
-.footer_text_Social {
+.footer_paragraph {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
 }
 
 .footer_images {
@@ -512,6 +512,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer_link:hover {
@@ -519,7 +520,7 @@ img {
 }
 
 .footer_link:focus {
-  background-color: #32d0aa;
+  background-color: #31d0aa;
 }
 
 .footer_svg_icons {
