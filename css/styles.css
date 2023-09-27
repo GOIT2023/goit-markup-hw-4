@@ -512,6 +512,8 @@ transform: translateY(0%)
 }
 
 .footer_images {
+  margin: 0;
+  padding: 0;
   display: flex;
   gap: 16px;
 }
