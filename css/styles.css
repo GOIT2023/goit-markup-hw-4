@@ -1,3 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
 :root {
   --iris: #4d5ae5;
   --navyblue: #2e2f42;
@@ -51,12 +81,17 @@ img {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
 
-.activ{
+.activ {
   position: relative;
 }
 /* header */
@@ -190,14 +225,14 @@ h1, h2, h3, h4, h5, h6{
 .section_one {
   padding-top: 188px;
   padding-bottom: 188px;
-  flex-shrink: 0;
   background: var(--navyblue);
   max-width: 1440px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/img_section_one/people-office\ 1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/img_section_one/people-office\ 1.png);
+  flex-shrink: 0;
 }
 
 .introduction_hero {
@@ -441,8 +476,8 @@ h1, h2, h3, h4, h5, h6{
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.section_four_list:hover .section_four_portfolio_text{
-transform: translateY(0%)
+.section_four_list:hover .section_four_portfolio_text {
+  transform: translateY(0%);
 }
 
 .section_four_portfolio_img {
@@ -508,8 +543,8 @@ transform: translateY(0%)
 }
 
 .footer_paragraph {
-  font-weight: 500;
   margin-bottom: 16px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
