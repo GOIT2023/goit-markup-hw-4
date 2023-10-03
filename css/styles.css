@@ -227,11 +227,11 @@ h6 {
   padding-bottom: 188px;
   background: var(--navyblue);
   max-width: 1440px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/img_section_one/people-office\1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/img_section_one/people_office.jpg);
   flex-shrink: 0;
 }
 
